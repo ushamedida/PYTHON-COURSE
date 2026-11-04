@@ -1,5 +1,5 @@
 
-#Dictionaries in Python
+#DICTIONARIES in Python
 # A dictionary is a collection of key-value pairs. Each key is unique and maps to a value.
 # Dictionaries are mutable, meaning you can change their content without changing their identity.
 ## Creating a dictionary
@@ -32,5 +32,4 @@ student.popitem()
 print(student)  # Output: {'name': 'John Doe', 'age': 21, 'major': 'Computer Science'}
 student.clear()
 print(student)  # Output: {}
-del student["grade"]
-print(student)  # Output: {'name': 'John Doe', 'age': 21, 'major': 'Computer Science'}
+
